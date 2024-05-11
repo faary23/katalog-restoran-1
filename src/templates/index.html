@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Catalog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Skip to content -->
+  <a href="#main-content" class="skip-to-content">Skip to content</a>
+
+  <!-- Header -->
+  <header role="banner">
+    <div class="logo">Hunger Apps</div>
+    <nav role="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#">Favorite</a></li>
+        <li><a href="https://www.linkedin.com/in/faryotaa/">About Us</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" tabindex="0" aria-expanded="false" aria-controls="drawer-menu">&#9776;</button>
+  </header>
+    
+  <!-- Navigation Drawer -->
+  <nav id="drawer-menu" role="navigation">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="#">Favorite</a></li>
+      <li><a href="https://www.linkedin.com/in/faryotaa/">About Us</a></li>
+    </ul>
+  </nav>
+    
+  <!-- Hero Element -->
+  <main id="main-content" role="main">
+    <section class="hero">
+        <img src="./images/heros/hero-image_2.jpg" alt="Restaurant Catalog">
+        <div class="hero-position"></div>
+    </section>
+
+    <!-- Restaurant List -->
+    <section class="restaurant">
+        <h2 class="list-title">Restaurant List</h2>
+        <div class="restaurant-container">
+            <!-- Daftar restoran akan ditampilkan secara dinamis menggunakan JavaScript -->
+        </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <p>&copy; 2024 - Hunger Apps</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
